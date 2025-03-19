@@ -1,0 +1,156 @@
+
+                            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                            ³  BLOCKS FROM HELL  ³
+                            ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+                                 Version 1.3
+
+                              by Toren K. Smith
+                            (tbone@cs.utexas.edu)
+
+                         "Yet another T*tris ripoff"
+
+I.   INTRODUCTION
+
+        Please read this documentation file in full before attempting to run
+this game.  Very important infor--  Oh, what's the use?  You already ran it,
+didn't you?  Didn't you?!?  C'mon, don't lie!  You unzipped this puppy, and
+right away, ran the program!  You only read this because you wanted to find
+out what the keys were for some of the functions, or because you just got
+bored, or because the program just crashed your priceless computer!  You
+make me sick!
+        ...On the other hand, if you *did* start off by reading this file,
+then pat yourself on the back.  Then run the game.  You can finish reading
+this if you want to find out what the keys are, or if you get bored, or if
+it crashes your computer.
+
+II.  LEGAL MATTERS (or lack thereof)
+
+        This game is free.  It is *not*, repeat *not* to be sold in any form,
+for any price.  I retain all rights to it, and I am not releasing it into the
+public domain.  There is no registration fee.  You may distribute it freely
+provided the contents (program file, documentation) remain intact.  If you do
+attempt to sell this game, or alter it, or do anything else I wouldn't approve
+of, then one by one, everything you hold as sacred or valuable will slowly
+fall apart, all your friends and loved ones will find better things to do than
+deal with you, and any milk you buy will turn sour before the expiration date.
+Finally, your entire grip on reality will be thrown from its moorings, and
+you will end up living under a bridge, arguing with aluminum cans.  All this
+can be avoided by following these simple rules -- and common courtesy.
+        I do ask one thing in return for giving you uncountable hours of
+potentially unproductive fun, though.  I enjoy what I do, and I like to think
+that other people do.  So, I ask that you lift my spirits, brighten my day,
+and let me know what you think of this game.  I can be reached best by my
+InterNet address:  "tbone@cs.utexas.edu".  So, if you end up playing this
+game like your life depended on it, or if you think it's the biggest waste
+of electrons you've ever seen, then drop me a line.  I'll be glad to hear
+from you, and you'll automatically be included on my List Of People To Give
+Huge Bonuses To When I Become Ruler Of All I Survey.  If you must reach me
+by methods other than the net, then you can either call Austin directory
+assistance (512-555-1212) and ask for my number, or send mail to my parent's
+address:  7606 Ashcrest Ln., Dallas, Tx., 75249.  I'd like to see how far
+this thing gets distributed -- let me know.
+
+III. SYSTEM REQUIREMENTS
+
+        Now, to the technical stuff.  This requires a PC-compatible system.
+Any speed should do.  I tested it on my 386, but I slowed it down to 2Mhz,
+which was about 1.1 times the speed of the original 4.77Mhz 8088 machines,
+and it ran fine.  It's not optimized for the 286, or the 386, or much of
+anything else, for that matter.  The only thing it really requires is a VGA
+or MCGA compatible video card and monitor.  It doesn't support sound cards,
+because when I wrote it initially a few years ago, there weren't really
+many sound cards out there.  It also doesn't support a mouse, because I
+really didn't think it would help.
+        Please don't let these specs scare you.  I know if I got a game that
+was 14K in size, and would run the same on a 4.77Mhz XT as it would on a
+486-66Mhz machine, I would not be expecting much.  It really is a very
+capable game -- it ran perfectly fine on a slow machine, so I saw no need
+to change it.
+
+IV.  INSTRUCTIONS
+
+        Pretty simple.  There are no command-line arguments, just run the
+executable.  There is only one data file -- the high score table, BLOCKS.SCR.
+If it isn't there (I didn't include one), don't worry -- it'll be created.
+It looks for this file in whatever directory the executable is in, so feel
+free to place it in your path, and run it from anywhere.  For example, I
+put mine in my utility directory -- it really doesn't seem big enough to me
+for it to have its own directory.
+
+V.   GAMEPLAY
+
+        If you hadn't guessed, the gameplay itself is far from new.  It is,
+in fact, almost identical to that of many others: move and rotate 4-block
+pieces while they fall, and try to arrange them to fill horizontal lines.
+If you don't know how to play this game already, I'm amazed.
+        The keyboard control is simple -- I suggest using the numeric keypad
+to play.  Move the piece left and right with the arrow keys (or 4 and 6 on
+the keypad), rotate with 5 and 8, down (or 2) to speed its fall, and space
+to drop it immediately.  Pressing P will toggle the pause mode, and pressing
+S will toggle the sound when lines are cleared.  Escape will abort the
+current game, and F10 will exit the program immediately from any point.
+
+VI.  SCORING
+
+        The scoring is also pretty easy -- you get 6 points for each piece
+you play, plus a bonus for the level number you're on, plus a bonus for each
+line that it fell while being dropped with the space bar, plus a bonus if you
+don't use the "Next Piece" option.  When you clear lines, the scoring is as
+follows:
+                1 line  : 100 points
+                2 lines : 200 points
+                3 lines : 400 points
+                4 lines : 800 points
+        Incidentally, I'd definitely like to hear from you if you can beat
+my high score -- 38,151 with 223 lines cleared.
+
+VII. JUSTIFICATION
+
+        I honestly feel like I've got to explain why I made this -- after all,
+it's not like there aren't already too many games like this to count.  Well,
+basically I liked the idea of the game a lot, and I wanted to have something
+to write, and the versions I saw were kind of disappointing.  I thought I
+could make something with better graphics and better control, without taking
+up the space that the others did.  I think I succeeded.  So it doesn't sound
+like I'm boasting, here's the list of features:
+        þ The game runs at *exactly* the same speed on any machine, from a
+          4.77Mhz XT to the fastest 486's.
+        þ The game is timer-based, so if you turn off the turbo switch in the
+          middle of the game, it remains the same speed.  (The sound will be
+          affected, though.)
+        þ It uses hardware-interfacing for the keyboard input, so you can use
+          more than one key at once, and the keys repeat at the same rate on
+          any machine, without changing the normal repeat-rate.
+        þ The blocks are about as large as they possibly could be, making the
+          game as clear as possible.
+        þ It *will* keep up with you -- if you don't believe me, try starting
+          at level 19.
+        þ It features two different rotation keys for different directions,
+          plus the ability to either speed up the falling of a block, or to
+          drop it immediately.
+        þ At just over 14K in size, it's smaller than just about any other
+          game of its type.
+        þ It's totally free.
+
+VIII. TECHNICAL INFORMATION
+
+        This game was written in Turbo Pascal 6.0, with a modicum of inline
+assembler for speed.  It was compressed with PKLite(tm), so in all honesty,
+it wasn't originally 14K.  It was, in fact, about 25K.  Still, small is
+small.  It uses direct hardware-access of the keyboard, the clock timer, and
+the palette registers of the VGA card.  If you want to know more specifics,
+don't try to disassemble it.  I know it can be done, but it would be pretty
+pointless, because if you contact me, and seem like a nice person, I'd
+probably give you the source code anyway.  What do I care?  I'm not getting
+paid for it, and it's pretty incomprehensible anyway.
+
+IX.  CLOSING REMARKS
+
+        I've decided to stop working on this game now -- I think it's pretty
+done, and I've got bigger, greater things in mind.  I'll again ask that you
+drop me some sort of line -- this is the first program I've really sent out
+of my hands, and I'd like to see how far it goes.  Keep an eye out for me --
+there's more to come, and it won't take up much space...
+
+        -- Toren K. Smith, tbone@cs.utexas.edu, Software from HELL.
